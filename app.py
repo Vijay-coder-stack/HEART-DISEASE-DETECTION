@@ -32,7 +32,7 @@ st.write("Dataset: heart_disease_dataset.csv")
 # =====================================================
 
 try:
-    data = pd.read_csv("heart_disease_dataset")
+    data = pd.read_csv("heart_disease_dataset.csv")
 except FileNotFoundError:
     st.error("❌ Dataset file not found.")
     st.stop()
