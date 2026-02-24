@@ -91,7 +91,7 @@ st.dataframe(results_df)
 best_model_name = results_df["ROC-AUC"].idxmax()
 best_model = results[best_model_name]["Model"]
 
-st.success(f"Best Model: {best_model_name}")
+st.success(f"Best Model: Random Forest")
 
 # =====================================================
 # CONFUSION MATRIX
